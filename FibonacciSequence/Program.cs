@@ -16,6 +16,13 @@ namespace FibonacciSequence
                 Console.WriteLine(fs.FibonacciNumbers(i));
             }
 
+            Console.WriteLine(" ");
+
+            for (int i = 0; i < placesInSequence; i++)
+            {
+                Console.WriteLine(fs.FibonacciRecursive(i));
+            }
+
             Console.ReadKey();
         }
     }
